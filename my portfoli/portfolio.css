@@ -491,7 +491,7 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #333;
+    background-color: ##5c715e;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -562,7 +562,7 @@ footer {
 }
 
 .btn {
-    background-color: ##5c715e;
+    background-color: #0056b3;
     color: white;
     border: none;
     padding: 10px 20px;
