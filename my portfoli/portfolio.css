@@ -251,7 +251,7 @@ form textarea {
 form button {
     margin-top: 1rem;
     padding: 0.5rem;
-    background: #333;
+    background: ##5c715e;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -333,7 +333,7 @@ footer {
 }
 
 .progress1 {
-    background-color: rgb(32, 147, 218);
+    background-color: #5c715e;
     text-align: right;
     padding-right: 5px;
     color: #fff;
@@ -353,7 +353,7 @@ footer {
     }
 }
 .progress2 {
-    background-color: rgb(32, 147, 218);
+    background-color: #5c715e;
     text-align: right;
     padding-right: 5px;
     color: #fff;
@@ -373,7 +373,7 @@ footer {
     }
 }
 .progress3 {
-    background-color: rgb(32, 147, 218);
+    background-color: #5c715e;
     text-align: right;
     padding-right: 5px;
     color: #fff;
@@ -393,7 +393,7 @@ footer {
     }
 }
 .progress4 {
-    background-color: rgb(32, 147, 218);
+    background-color: #5c715e;
     text-align: right;
     padding-right: 5px;
     color: #fff;
@@ -412,7 +412,7 @@ footer {
     }
 }
 .progress5 {
-    background-color: rgb(32, 147, 218);
+    background-color: #5c715e;
     text-align: right;
     padding-right: 5px;
     color: #fff;
@@ -431,7 +431,7 @@ footer {
     }
 }
 .progress6 {
-    background-color: rgb(32, 147, 218);
+    background-color: #5c715e;
     text-align: right;
     padding-right: 5px;
     color: #fff;
@@ -450,7 +450,7 @@ footer {
     }
 }
 .progress7 {
-    background-color: rgb(32, 147, 218);
+    background-color: #5c715e;
     text-align: right;
     padding-right: 5px;
     color: #fff;
@@ -469,7 +469,7 @@ footer {
     }
 }
 .progress8 {
-    background-color: rgb(32, 147, 218);
+    background-color: #5c715e;
     text-align: right;
     padding-right: 5px;
     color: #fff;
@@ -506,7 +506,7 @@ footer {
 }
 
 #scrollTopBtn:hover {
-    background-color: #555;
+    background-color: ##5c715e;
     transform: scale(1.1);
 }
 
@@ -562,7 +562,7 @@ footer {
 }
 
 .btn {
-    background-color: #007BFF;
+    background-color: ##5c715e;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -580,7 +580,7 @@ footer {
     top: 7rem;
     right: 15px;
     font-size: 36px;
-    color: #007BFF;
+    color: ##5c715e;
     opacity: 0.2;
     transition: opacity 0.3s ease;
 }
