@@ -187,7 +187,7 @@ p {
 .cta-button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: ##5c715e;
+    background: #5c715e;
     color: #fff;
     border-radius: 4px;
     text-decoration: none;
@@ -197,7 +197,7 @@ p {
 }
 
 .cta-button:hover {
-    background: ##5c715e;
+    background: #5c715e;
     transform: scale(1.1);
 }
 
@@ -251,7 +251,7 @@ form textarea {
 form button {
     margin-top: 1rem;
     padding: 0.5rem;
-    background: ##5c715e;
+    background: #5c715e;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -491,7 +491,7 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: ##5c715e;
+    background-color: #5c715e;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -506,7 +506,7 @@ footer {
 }
 
 #scrollTopBtn:hover {
-    background-color: ##5c715e;
+    background-color: #5c715e;
     transform: scale(1.1);
 }
 
@@ -580,7 +580,7 @@ footer {
     top: 7rem;
     right: 15px;
     font-size: 36px;
-    color: ##5c715e;
+    color: #5c715e;
     opacity: 0.2;
     transition: opacity 0.3s ease;
 }
