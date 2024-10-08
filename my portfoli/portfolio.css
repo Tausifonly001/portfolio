@@ -653,9 +653,6 @@ footer {
     .theme-toggle:hover {
         transform: scale(1.05);
     }
-    body.dark-mode .theme-toggle {
-        background-color: #5c715e;
-    }
 
     .theme-toggle i {
         font-size: 20px;
