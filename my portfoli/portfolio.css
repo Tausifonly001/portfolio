@@ -620,7 +620,59 @@ footer {
 .card-content {
     padding: 1rem;
 }
+<style>
+    /* Light theme styles */
+    body.light-mode {
+        background-color: #ffffff;
+        color: #000000;
+    }
 
+    /* Dark theme styles */
+    body.dark-mode {
+        background-color: #121212;
+        color: #ffffff;
+    }
+    .theme-toggle {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background-color: #007BFF; 
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.5s ease, transform 0.5s ease;
+    }
+
+    .theme-toggle:hover {
+        transform: scale(1.05);
+    }
+    body.dark-mode .theme-toggle {
+        background-color: #f06595;
+    }
+
+    .theme-toggle i {
+        font-size: 20px;
+        transition: transform 1s ease, color 1s ease; 
+    }
+    .rotate {
+        animation: rotateIcon 1s ease;
+    }
+
+    @keyframes rotateIcon {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
 
 @media (max-width: 768px) {
     .card {
