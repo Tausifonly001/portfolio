@@ -652,7 +652,7 @@ footer {
         transform: scale(1.05);
     }
     body.dark-mode .theme-toggle {
-        background-color: #ddeedf;
+        background-color: #5c715e;
     }
 
     .theme-toggle i {
