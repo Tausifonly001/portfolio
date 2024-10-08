@@ -673,13 +673,13 @@ footer {
             transform: rotate(360deg);
         }
     }
-    .dark-mode {
-        background-color: #121212;
+   .dark-mode {
+        background-color: #121212; 
         color: #ffffff; 
     }
     .dark-mode section {
         background-color: #1e1e1e; 
-        color: #e0e0e0;
+        color: #e0e0e0; 
     }
     .dark-mode .sidenav {
         background-color: #1e1e1e; 
@@ -689,20 +689,20 @@ footer {
         color: #bb86fc; 
     }
     .dark-mode .sidenav a:hover {
-        color: #ffffff; 
+            color: #ffffff; 
     }
     .dark-mode .card {
         background-color: #1e1e1e; 
     }
     .dark-mode .card-icon {
-        color: #bb86fc;
+        color: #bb86fc; 
     }
     .dark-mode .project {
         background-color: #1e1e1e; 
-        color: #e0e0e0;
+        color: #e0e0e0; 
     }
     .dark-mode .project-link {
-        color: #bb86fc; 
+            color: #bb86fc; 
     }
     .dark-mode .project-link:hover {
         color: #ffffff; 
@@ -714,8 +714,8 @@ footer {
         background-color: #bb86fc; 
     }
     .dark-mode .btn {
-        background-color: #bb86fc;
-        color: #121212;
+        background-color: #bb86fc; 
+        color: #121212; 
     }
     .dark-mode .social-media a {
         color: #bb86fc; 
@@ -724,41 +724,41 @@ footer {
         color: #ffffff; 
     }
     .dark-mode .footer {
-        background-color: #1e1e1e;
+        background-color: #1e1e1e; 
         color: #ffffff; 
     }
     .dark-mode .footer p {
-        color: #bb86fc;
+        color: #bb86fc; 
     }
-    .dark-mode .btn {
+    .dark-mode .btn:hover {
         background-color: #9a67ea; 
     }
     .dark-mode .theme-toggle {
-        background-color: #bb86fc;
-        color: #121212;
+        background-color: #bb86fc; 
+        color: #121212; 
     }
     .dark-mode .theme-toggle:hover {
         background-color: #9a67ea; 
     }
     .dark-mode .home-image {
-        border-color: #bb86fc;
+        border-color: #bb86fc; 
     }
     .dark-mode h1, .dark-mode h2, .dark-mode h3 {
         color: #ffffff; 
     }
     .dark-mode p {
-        color: #e0e0e0;
+        color: #e0e0e0; 
     }
     .dark-mode a {
         color: #bb86fc; 
     }
     .dark-mode a:hover {
-        color: #ffffff;
+        color: #ffffff; 
     }
     .dark-mode input, .dark-mode textarea {
         background-color: #333333; 
         color: #ffffff; 
-        border: 1px solid #bb86fc;
+        border: 1px solid #bb86fc; 
     }
     .dark-mode #menuToggle{
         color: #fff;
