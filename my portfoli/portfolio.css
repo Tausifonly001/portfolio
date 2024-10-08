@@ -730,7 +730,7 @@ footer {
     .dark-mode .footer p {
         color: #bb86fc;
     }
-    .dark-mode .btn:hover {
+    .dark-mode .btn {
         background-color: #9a67ea; 
     }
     .dark-mode .theme-toggle {
