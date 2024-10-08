@@ -157,7 +157,9 @@ p {
         transform: translateY(0);
     }
 }
-
+.project p{
+    color:#666;
+}
 .project {
     margin-bottom: 1rem;
     background: #fff;
