@@ -763,6 +763,9 @@ footer {
     .dark-mode #menuToggle{
         color: #fff;
     }
+    .dark-mode #scrollTopBtn{
+        background-color: #bb86fc;
+    }
 
 @media (max-width: 768px) {
     .card {
