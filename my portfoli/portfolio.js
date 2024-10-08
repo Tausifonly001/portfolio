@@ -44,7 +44,8 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 scrollBtn.style.display = "none";
             }
-    // Check for saved theme in localStorage and apply it
+        };
+// Check for saved theme in localStorage and apply it
     document.addEventListener('DOMContentLoaded', () => {
         const savedTheme = localStorage.getItem('theme');
         const themeIcon = document.getElementById('themeIcon');
@@ -76,5 +77,4 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }, 250); // Delay theme change to allow for smoother icon transition
     };
-        };
         
