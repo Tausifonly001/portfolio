@@ -763,6 +763,22 @@ footer {
     .dark-mode #scrollTopBtn{
         background-color: #bb86fc;
     }
+    body.light-mode .navbar {
+        background-color: white; 
+        color: black; 
+    }
+    
+    body.light-mode .navbar a {
+        color: black; 
+    }
+    
+    body.light-mode .navbar .brand-title {
+        color: black; 
+    }
+    
+    body.light-mode .navbar .toggle-button i {
+        color: black; 
+    }
 
 @media (max-width: 768px) {
     .card {
