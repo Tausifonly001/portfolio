@@ -78,3 +78,25 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 250); // Delay theme change to allow for smoother icon transition
     };
         
+
+const burger = document.querySelector('.burger');
+const navLinks = document.querySelector('.nav-links');
+
+burger.addEventListener('click', () => {
+    navLinks.classList.toggle('nav-active');
+    burger.classList.toggle('toggle');
+});
+
+function toggleMenu() {
+    const navbarLinks = document.getElementById('navbarLinks');
+    navbarLinks.classList.toggle('active');
+}
+
+function toggleDropdown() {
+    const dropdownContent = document.querySelector('.dropdown-content');
+    if (dropdownContent.style.display === 'block') {
+        dropdownContent.style.display = 'none';
+    } else {
+        dropdownContent.style.display = 'block';
+    }
+}
