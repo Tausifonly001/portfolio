@@ -9,12 +9,18 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #b6cdbd;
-    color: #333;
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light grey background for a clean look */
+    color: #333; /* Dark grey text for readability */
     background-attachment: fixed;
     line-height: 1.6;
     animation: fadeIn 1s ease-in-out;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea; /* Light background color */
+    padding-top: 60px; /* Add padding to prevent overlap */
 }
 
 @keyframes fadeIn {
@@ -35,7 +41,7 @@ body {
     z-index: 2000;
     top: 0;
     left: 0;
-    background-color: rgba(15, 15, 15, 0.7);
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background for contrast */
     overflow-x: hidden;
     transition: width 0.5s ease;
     padding-top: 60px;
@@ -45,13 +51,13 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #fff;
+    color: #007bff; /* Blue accent color for links */
     display: block;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .sidenav a:hover {
-    color: #ffa500;
+    color: #0056b3; /* Darker blue on hover */
     transform: scale(1.1);
 }
 
@@ -116,6 +122,7 @@ section {
 
 .container {
     max-width: 1200px;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
 }
@@ -175,21 +182,21 @@ p {
 }
 
 .project-link {
-    color: rgb(32, 147, 218);
+    color: #007bff; /* Blue accent color for project links */
     text-decoration: none;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .project-link:hover {
     text-decoration: underline;
-    color: #0011ff;
+    color: #0056b3; /* Darker blue on hover */
     transform: scale(1.1);
 }
 
 .cta-button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #5c715e;
+    background: #007bff; /* Blue accent color for buttons */
     color: #fff;
     border-radius: 4px;
     text-decoration: none;
@@ -199,7 +206,7 @@ p {
 }
 
 .cta-button:hover {
-    background: #5c715e;
+    background: #0056b3; /* Darker blue on hover */
     transform: scale(1.1);
 }
 
@@ -253,7 +260,7 @@ form textarea {
 form button {
     margin-top: 1rem;
     padding: 0.5rem;
-    background: #5c715e;
+    background: #007bff; /* Blue accent color for buttons */
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -262,7 +269,7 @@ form button {
 }
 
 form button:hover {
-    background: #555;
+    background: #0056b3; /* Darker blue on hover */
     transform: scale(1.1);
 }
 
@@ -637,7 +644,7 @@ footer {
         position: fixed;
         top: 10px;
         right: 10px;
-        background-color: #5c715e; 
+        background-color: #5c715e; /* Blue accent color for theme toggle */
         color: white;
         border: none;
         padding: 10px 20px;
@@ -648,6 +655,18 @@ footer {
         align-items: center;
         justify-content: center;
         transition: background-color 0.5s ease, transform 0.5s ease;
+    }
+    @media (min-width: 768px) and (max-width: 1240px){
+        .theme-toggle {
+            top: 10px;
+            right: 30rem;
+        }
+    }
+    @media (min-width: 480px) and (max-width: 768px) {
+        .theme-toggle {
+            top: 10px;
+            right: 10rem;
+        }
     }
 
     .theme-toggle:hover {
@@ -763,7 +782,25 @@ footer {
     .dark-mode #scrollTopBtn{
         background-color: #bb86fc;
     }
-   .navbar {
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        padding: 1rem;
+    }
+
+    .card {
+        font-size: 14px;
+    }
+}
+
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -914,22 +951,4 @@ body.light-mode .navbar .brand-title {
 
 body.light-mode .navbar .toggle-button i {
     color: black; 
-}
-
-
-@media (max-width: 768px) {
-    .card {
-        flex: 1 1 100%;
-        max-width: none;
-    }
-}
-
-@media (max-width: 480px) {
-    .about-section {
-        padding: 1rem;
-    }
-
-    .card {
-        font-size: 14px;
-    }
 }
