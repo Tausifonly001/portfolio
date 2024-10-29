@@ -14,24 +14,52 @@
 
 <body class="light-mode">
    
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </div>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="brand-title">Md Tausif</div>
+            <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+            <div class="navbar-links" id="navbarLinks">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="dropdown">
+                        <a href="#projects" class="dropbtn">Projects</a>
+                        <div class="dropdown-content">
+                            <a href="#home">Portfolio</a>
+                            <a href="https://space-info-cpk08ogs4-md-tausif-ali-ansaris-projects.vercel.app">Planets</a>
+                            <a href="https://ice-cream-slider-mgpriv92h-md-tausif-ali-ansaris-projects.vercel.app">Ice Cream</a>
+                            <a href="https://dynamic-card-generater-ifyubl6ig-md-tausif-ali-ansaris-projects.vercel.app">Dynamic Card Generator</a>
+                            <a href="https://tictactoe-n21kjqrsi-md-tausif-ali-ansaris-projects.vercel.app">Tic Tac Toe</a>
+                            <a href="https://shoes-slider-fr6bt3xea-md-tausif-ali-ansaris-projects.vercel.app">Shoe Slider</a>
+                            <a href="https://to-do-list-pi-ecru.vercel.app/">To Do List</a>
+                            <a href="https://landing-page-one-dusky.vercel.app/">Landing Page</a>
+                            <a href="https://bike-hub-vert.vercel.app/">BikeHub</a>
+                        </div>
+                    </li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-sun" id="themeIcon"></i>
+            </button>
+        </div>
+    </nav>
 
     
-    <span id="menuToggle" onclick="openNav()"><i class="fas fa-bars"></i></span>
-
-    
-    <section id="home">
+    <section id="home" class="home-section">
         <div class="container">
-            <img src="paceholder.jpg" class="home-image" style="border-radius: 50%; ">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm Md Tausif Ali Ansari, a web developer with a passion </p> for creating stunning and functional websites.</p>
+            <div class="home-card">
+                <img src="new-image.jpg" class="home-image">
+                <div class="card-content">
+                    <h1>Hi, I'm Md Tausif Ali Ansari</h1>
+                    <p>Creative Web Developer</p>
+                    <a href="#portfolio" class="btn">View My Work</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -232,9 +260,7 @@
 
     
     <button id="scrollTopBtn" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></button>
-    <button class="theme-toggle" onclick="toggleTheme()">
-        <i class="fas fa-sun" id="themeIcon"></i>
-    </button>
+    
 </body>
 
 </html>
