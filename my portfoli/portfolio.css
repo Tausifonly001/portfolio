@@ -859,7 +859,7 @@ footer {
     display: block;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: #007bff;
     transition: width 0.3s;
     position: absolute;
     bottom: 0;
@@ -951,4 +951,8 @@ body.light-mode .navbar .brand-title {
 
 body.light-mode .navbar .toggle-button i {
     color: black; 
+}
+body.light-mode .navbar-links a:hover {
+    color: #007bff; 
+    transform: scale(1.1);
 }
