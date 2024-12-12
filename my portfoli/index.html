@@ -1,271 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Md Tausif Ali Ansari | Portfolio</title>
-   <link rel="stylesheet" href="./portfolio.css">
-   <script src="./portfolio.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md Tausif Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
-<body class="light-mode">
-   
+<body>
+  <header class="hero-section">
     <nav class="navbar">
-        <div class="navbar-container">
-            <div class="brand-title">Md Tausif</div>
-            <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
-                <i class="fas fa-bars"></i>
-            </a>
-            <div class="navbar-links" id="navbarLinks">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li class="dropdown">
-                        <a href="#projects" class="dropbtn">Projects</a>
-                        <div class="dropdown-content">
-                            <a href="#home">Portfolio</a>
-                            <a href="https://space-info-cpk08ogs4-md-tausif-ali-ansaris-projects.vercel.app">Planets</a>
-                            <a href="https://ice-cream-slider-mgpriv92h-md-tausif-ali-ansaris-projects.vercel.app">Ice Cream</a>
-                            <a href="https://dynamic-card-generater-ifyubl6ig-md-tausif-ali-ansaris-projects.vercel.app">Dynamic Card Generator</a>
-                            <a href="https://tictactoe-n21kjqrsi-md-tausif-ali-ansaris-projects.vercel.app">Tic Tac Toe</a>
-                            <a href="https://shoes-slider-fr6bt3xea-md-tausif-ali-ansaris-projects.vercel.app">Shoe Slider</a>
-                            <a href="https://to-do-list-pi-ecru.vercel.app/">To Do List</a>
-                            <a href="https://landing-page-one-dusky.vercel.app/">Landing Page</a>
-                            <a href="https://bike-hub-vert.vercel.app/">BikeHub</a>
-                            <a href="https://propose-crush-kappa.vercel.app/">Propose crush</a>
-                        </div>
-                    </li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            
-            <button class="theme-toggle" onclick="toggleTheme()">
-                <i class="fas fa-sun" id="themeIcon"></i>
-            </button>
-        </div>
+      <a href="#home" class="logo">Tausif</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-
-    
-    <section id="home" class="home-section">
-        <div class="container">
-            <div class="home-card">
-                <img src="new-image.jpg" class="home-image">
-                <div class="card-content">
-                    <h1>Hi, I'm Md Tausif Ali Ansari</h1>
-                    <p>Creative Web Developer</p>
-                    <a href="#portfolio" class="btn">View My Work</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-   
-    <section id="about" class="about-section">
-        <h2>About me</h2>
-    <div class="about-container">
-        
-    <div class="card">
-        <div class="card-content">
-            <h3>Programming studies</h3>
-            <p>I'm good at programming languages such as HTML, CSS, JavaScript, Bootstrap, AngularJS,</p>
-            <button class="btn" id="readMore1">Read More</button>
-            <div class="more-content" id="moreContent1">
-                <p>and jQuery. I also study new technologies like PHP and MongoDB, with the knowledge of which I would be able to build web applications that are complicated and dynamic. So, these skills, combined with my passion for technology, drive my ambition to excel in the field of web development.</p>
-            </div>
-        </div>
-        <div class="card-icon">
-            <i class="fas fa-code"></i>
-        </div>
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Crafting unique experiences through design and code.</p>
+      <a href="#projects" class="btn">Explore Projects</a>
     </div>
+  </header>
 
-    
-    <div class="card">
-        <div class="card-content">
-            <h3>computer studies</h3>
-            <p>This is coupled with the fact that, parallel to regular studies, I am pursuing </p>
-            <button class="btn" id="readMore2">Read More</button>
-            <div class="more-content" id="moreContent2">
-                <p>specialization in Open Source Web Application Development from CMC Aptech. I have also done a short-term course in Advanced Excel, which has added to my skill sets in managing data and analysis, arming me with quite a versatile set of tools for any type of work situation.</p>
-            </div>
-        </div>
-        <div class="card-icon">
-            <i class="fas fa-laptop-code"></i>
-        </div>
+  <section id="about" class="about-section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-card">
+        <h3>Who Am I?</h3>
+        <p>
+          I am Md Tausif Ali Ansari, a passionate web developer with skills in 
+          HTML, CSS, JavaScript, PHP, and MongoDB. I love creating technical, 
+          user-friendly, and innovative web applications.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>What I Do?</h3>
+        <p>
+          I specialize in building responsive and interactive websites. My expertise lies in combining technical skills with creative design to bring projects to life.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>What I Believe?</h3>
+        <p>
+          Continuous learning and exploring new technologies are the keys to success in the tech industry. I aim to create impactful solutions through web development.
+        </p>
+      </div>
     </div>
+  </section>
+  
 
-    
-    <div class="card">
-        <div class="card-content">
-            <h3>Continuous Learner</h3>
-            <p>I look forward to practicing my knowledge and skills in the professional world. My objective is</p>
-            <button class="btn" id="readMore3">Read More</button>
-            <div class="more-content" id="moreContent3">
-                <p>secure a position at a progressive organization, one that could involve me in creative projects, continue to learn, and leave a remarkable footprint in the niche within which I will practice web development.</p>
-            </div>
-        </div>
-        <div class="card-icon">
-            <i class="fas fa-book"></i>
-        </div>
+  <section id="projects" class="projects-section" data-aos="zoom-in">
+    <section id="projects" class="projects-section" data-aos="fade-up">
+      <h2>My Projects</h2>
+      <div class="projects-horizontal-scroll">
+      <div class="project-card">
+        <h3>Project 1: Portfolio Website</h3>
+        <p>This is my personal portfolio website with light and dark theme where I showcase my skills, projects, and experience. The website is built using HTML, CSS, JavaScript, and Bootstrap.</p>
+        <a href="#" class="project-link">View Project</a>
     </div>
-    <div class="card">
-        <div class="card-content">
-            <h3>schools & colleges</h3>
-            <p>My name is Md. Tausif Ali Ansari, and I come from Rishra in West Bengal. Right now, I'm</p>
-            <button class="btn" id="readMore4">Read More</button>
-            <div class="more-content" id="moreContent4">
-                <p>studying a B.A. in General Studies; I'm in my second semester. I have acquired school completion at the Matriculation and Higher Secondary levels, laying a very strong academic base for further learning and development.</p>
-            </div>
-        </div>
-        <div class="card-icon">
-            <i class="fas fa-graduation-cap"></i>
-        </div>
+    <div class="project-card">
+        <h3>Project 2: Planets</h3>
+        <p>An non-responsive planet website knowledge about the planet developed using html and css only.</p>
+        <a href="https://space-info-cpk08ogs4-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
     </div>
+    <div class="project-card">
+        <h3>Project 3: Ice Cream</h3>
+        <p>A ice cream purchase page slider developed using JavaScript and jQuery to help users organize their daily activities.</p>
+        <a href="https://ice-cream-slider-mgpriv92h-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
+    </div>
+    <div class="project-card">
+        <h3>Project 4: Dynamic Card Generator</h3>
+        <p>An dynamic card generator using HTML, CSS, JavaScript and Jquery.</p>
+        <a href="https://dynamic-card-generater-ifyubl6ig-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
+    </div>
+    <div class="project-card">
+        <h3>Project 5: Tic Tac Toe</h3>
+        <p>An tic tac toe game developed using HTML, CSS and JavaScript.</p>
+        <a href="https://tictactoe-n21kjqrsi-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
+    </div>
+    <div class="project-card">
+        <h3>Project 6: Shoe Slider</h3>
+        <p>An shoe slider card developed using HTML, CSS and JavaScript.</p>
+        <a href="https://shoes-slider-fr6bt3xea-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
+    </div>
+    <div class="project-card">
+        <h3>Project 7: To Do List</h3>
+        <p>Responsive to do list developed using HTML, CSS and JavaScript.</p>
+        <a href="https://to-do-list-pi-ecru.vercel.app/" class="project-link">View Project</a>
+    </div>
+    <div class="project-card">
+        <h3>Project 8: Landing Page</h3>
+        <p>An responsive landing page of car showroom developed using HTML, CSS and JavaScript.</p>
+        <a href="https://landing-page-one-dusky.vercel.app/" class="project-link">View Project</a>
+    </div>
+    <div class="project-card">
+        <h3>Project 9: BikeHub</h3>
+        <p>An responsive website with multiple pages featuring mountain bikes developed using HTML, CSS and JavaScript.</p>
+        <a href="https://bike-hub-vert.vercel.app/" class="project-link">View Project</a>
+    </div>
+    <div class="project-card">
+        <h3>Project 10: Propose crush</h3>
+        <p>An propose crush page developed using HTML, CSS and JavaScript.</p>
+        <a href="https://propose-crush-kappa.vercel.app/" class="project-link">View Project</a>
     </div>
     </section>
+    
+  </section>
+  <section id="skills" class="skills-section" data-aos="fade-up">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h3>HTML</h3>
+        <p>Proficient in semantic and structured HTML coding.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS</h3>
+        <p>Expert in responsive design, Flexbox, and animations.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+        <p>Skilled in interactive web functionality and ES6+ features.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-php"></i>
+        <h3>PHP</h3>
+        <p>Experience in backend scripting and server-side logic.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h3>MongoDB</h3>
+        <p>Knowledge of NoSQL databases and data modeling.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-angular"></i>
+        <h3>AngularJS</h3>
+        <p>Familiarity with dynamic single-page applications (SPA).</p>
+      </div>
+    </div>
+  </section>
+  
 
-    
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1: Portfolio Website</h3>
-                <p>This is my personal portfolio website with light and dark theme where I showcase my skills, projects, and experience. The website is built using HTML, CSS, JavaScript, and Bootstrap.</p><a href="#" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 2: Planets</h3>
-                <p>An non-responsive planet website knowledge about the planet developed using html and css only.</p><a href="https://space-info-cpk08ogs4-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 3: Ice Cream</h3>
-                <p>A ice cream purchase page slider developed using JavaScript and jQuery to help users organize their daily activities.</p><a href="https://ice-cream-slider-mgpriv92h-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 4: Dynamic Card Generator</h3>
-                <p>An dynamic card generator using HTML, CSS, JavaScript and Jquery.</p><a href="https://dynamic-card-generater-ifyubl6ig-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 5: Tic Tac Toe</h3>
-                <p>An tic tac toe game developed using HTML, CSS and JavaScript.</p><a href="https://tictactoe-n21kjqrsi-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 6: Shoe Slider</h3>
-                <p>An shoe slider card developed using HTML, CSS and JavaScript.</p><a href="https://shoes-slider-fr6bt3xea-md-tausif-ali-ansaris-projects.vercel.app" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 7: To Do List</h3>
-                <p>Responsive to do list developed using HTML, CSS and JavaScript.</p><a href="https://to-do-list-pi-ecru.vercel.app/" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 8: Landing Page</h3>
-                <p>An responsive landing page of car showroom developed using HTML, CSS and JavaScript.</p><a href="https://landing-page-one-dusky.vercel.app/" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 9: BikeHub</h3>
-                <p>An responsive website with multiple pages featuring mountain bikes developed using HTML, CSS and JavaScript.</p><a href="https://bike-hub-vert.vercel.app/" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project 10: Propose crush</h3>
-                <p>A fun app made with JavaScript, HTML and CSS.</p><a href="https://propose-crush-kappa.vercel.app/" class="project-link">View Project</a>
-            </div>
-        </div>
-    </section>
+  <footer id="contact" class="footer-section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/{your_form_id}" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/md-tausif-ali-ansari-9b36332ab/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Tausifonly001" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://x.com/tausif_ansari_7" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>Email: mdtausifaliansari@gmail.com</p>
+  </footer>
 
-    
-    <section id="skills">
-        <div class="container">
-            <h2>Skills In Progress</h2>
-            <div class="skills-container">
-                <div class="skill">
-                    <div class="skill-name">HTML</div>
-                    <div class="progress-bar">
-                        <div class="progress1" style="width: 98%;">98%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">CSS</div>
-                    <div class="progress-bar">
-                        <div class="progress2" style="width: 80%;">80%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">BOOSTRAP</div>
-                    <div class="progress-bar">
-                        <div class="progress3" style="width: 85%;">85%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">JAVASCRIPT</div>
-                    <div class="progress-bar">
-                        <div class="progress4" style="width: 70%;">70%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">JQUERY</div>
-                    <div class="progress-bar">
-                        <div class="progress5" style="width: 60%;">60%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">ANGULAR.JS</div>
-                    <div class="progress-bar">
-                        <div class="progress6" style="width: 75%;">75%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">MONGODB</div>
-                    <div class="progress-bar">
-                        <div class="progress7" style="width: 5%;">5%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">PHP</div>
-                    <div class="progress-bar">
-                        <div class="progress8" style="width: 30%;">30%</div>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-    
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="https://formspree.io/f/movalvly" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            
-                <button class="btn" type="submit">Send</button>
-            </form>
-        </div>
-    </section>
-
-    
-    <footer>
-        <p>&copy; 2024 Md Tausif Ali Ansari. All rights reserved.</p>
-        <div class="social-media">
-            <a href="https://www.facebook.com/sareena.siddiqui.96?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://x.com/tausif_ansari_7" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/md-tausif-ali-ansari-9b36332ab/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            
-        </div>
-    </footer>
-
-    
-    <button id="scrollTopBtn" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></button>
-    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
-
 </html>
