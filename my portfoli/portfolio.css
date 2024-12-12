@@ -22,7 +22,7 @@ body {
 .hero-section {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-              url('./images/Md\ Tausif\ Ali\ Ansari.jpg');
+              url('./images/Md Tausif Ali Ansari.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
