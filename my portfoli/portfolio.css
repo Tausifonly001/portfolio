@@ -269,6 +269,31 @@ body {
     background: #00d8ff;
     color: #121212;
   }
+
+.footer-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.hire-me-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.hire-me-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 20px rgba(255, 120, 150, 0.5);
+}
+
+.social-links {
+  margin-top: 20px;
+}
 @media (max-width: 768px) {
   .project-card {
     min-width: 250px;
